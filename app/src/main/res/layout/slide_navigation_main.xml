@@ -26,24 +26,16 @@
                 android:layout_gravity="left|center_vertical"
                 android:background="@mipmap/ic_menu_1"
                 android:layout_marginLeft="5dp"/>
-            <TextView
+
+            <customfonts.MyTextView1
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="7dp"
                 android:text="Reside Menu Example"
-                android:textSize="18sp"
+                android:textSize="@dimen/toolbar_text_size"
                 android:gravity="center"
-                android:textColor="@color/toolbar_text_color"/>
-
-            <!--<customfonts.MyTextView1-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:padding="7dp"-->
-                <!--android:text="Reside Menu Example"-->
-                <!--android:textSize="@dimen/toolbar_text_size"-->
-                <!--android:gravity="center"-->
-                <!--android:textColor="@color/toolbar_text_color"-->
-                <!--android:layout_gravity="center"/>-->
+                android:textColor="@color/toolbar_text_color"
+                android:layout_gravity="center"/>
 
             <!--TODO ADD customfonts-->
 
